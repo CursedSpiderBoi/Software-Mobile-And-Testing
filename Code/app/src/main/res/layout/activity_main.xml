@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Full-Screen Background Image -->
+    <ImageView
+        android:id="@+id/mainScreenImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/iv_splash_page_background_text"
+        android:src="@drawable/splash_background"
+        android:scaleType="fitXY" />
+
+    <!-- App Logo -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:contentDescription="@string/iv_app_logo_text"
+        android:src="@drawable/logo"
+        android:background="@drawable/circle_logo"
+        android:scaleType="centerCrop"
+        android:padding="25dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:padding="15dp">
+
+        <!-- "Enter your name" Text -->
+        <TextView
+            android:id="@+id/nameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/acme"
+            android:text="@string/tv_name_text"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <!-- Name Input Field -->
+        <EditText
+            android:id="@+id/nameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/tv_main_hint_text"
+            android:textColorHint="@color/white"
+            android:padding="12dp"
+            android:textColor="@color/white"
+            android:background="@drawable/et_design_bg"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <!-- Start Button -->
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="80dp"
+        android:padding="15dp"
+        android:backgroundTint="#D9AB39"
+        android:text="@string/btn_main_text"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

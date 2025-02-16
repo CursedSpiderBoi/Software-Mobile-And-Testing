@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">smd_assignment_1</string>
+    <string name="iv_app_logo_text">App Logo</string>
+    <string name="iv_splash_page_background_text">Splash page Background</string>
+    <string name="tv_name_text">Enter your name</string>
+    <string name="tv_main_hint_text">John Doe...</string>
+    <string name="btn_main_text">Start</string>
+    <string name="btn_next_text">Next</string>
+    <string name="btn_previous_txt"><![CDATA[< Previous]]></string>
+    <string name="btn_previous_text"><![CDATA[< Previous]]></string>
+    <string name="tv_quiz_number_text">1/10</string>
+</resources>

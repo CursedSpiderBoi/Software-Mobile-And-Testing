@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="orange">#D9AB39</color>
+    <color name="optionSelected">#99E6BC</color>
+    <color name="quizBackground">#D8FAE8</color>
+    <color name="quizButton">#076D4A</color>
+
+</resources>
+
+

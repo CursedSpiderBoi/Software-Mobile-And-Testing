@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="200dp"
+    android:viewportWidth="400"
+    android:viewportHeight="200">
+
+    <!-- Background with Upward Arc -->
+    <path
+        android:fillColor="@color/quizBackground"
+        android:pathData="M0,200 Q200,100 400,200 L400,0 L0,0 Z"/>
+</vector>
